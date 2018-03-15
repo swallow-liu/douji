@@ -1,0 +1,31 @@
+/* pages/myAccount/myAccount.wxss */
+.myaccount {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.account-img {
+  width: 204rpx;
+  height: 204rpx;
+  margin-top: 102rpx;
+}
+.account-title {
+  color: #4A4A4A;
+  font-size: 32rpx;
+  margin-top: 18rpx;
+}
+.account-money {
+  color: #4A4A4A;
+  font-size: 72rpx;
+  margin-bottom: 66rpx;
+}
+.recharge {
+  width: 440rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+  border-radius: 4px;
+  border: 1px solid #999999;
+  margin-top: 20rpx;
+}

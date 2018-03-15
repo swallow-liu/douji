@@ -1,0 +1,105 @@
+/* pages/confirmOrder/confirmOrder.wxss */
+.img {
+  width: 186rpx;
+  height: 186rpx;
+}
+.head {
+  height: 50rpx;
+  color: #555555;
+  font-size: 24rpx;
+  padding: 0 28rpx;
+  line-height: 50rpx;
+}
+.wrap-address {
+  padding: 20rpx 28rpx;
+  background: #fff;
+}
+.address-title {
+  color: #333333;
+  font-size: 32rpx;
+}
+.address {
+  color: #555555;
+  font-size: 24rpx;
+  margin-top: 12rpx;
+}
+.jianyi {
+  height: 90rpx;
+  padding: 0 28rpx;
+  background: #fff;
+  color: #333;
+  font-size: 28rpx;
+  line-height: 90rpx;
+  margin-top: 20rpx;
+}
+.wrap-mai {
+  height: 80rpx;
+  background: #fff;
+  align-items: center;
+  font-size: 28rpx;
+  color: #333;
+  padding: 0 28rpx;
+}
+.border {
+  height: 2rpx;
+  background: #E9E9E9;
+}
+.wrap-order {
+  padding: 20rpx 28rpx;
+  font-size: 28rpx;
+  color: #4A4A4A;
+}
+.order {
+  margin-left: 40rpx;
+}
+.order-content {
+  min-height: 80rpx;
+}
+.wrap-pri {
+  margin-top: 58rpx;
+}
+.pri {
+  color: #D0021B;
+  font-size: 36rpx;
+}
+.footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  height: 84rpx;
+  line-height: 84rpx;
+  padding-left: 28rpx;
+  background: #fff;
+  font-size: 30rpx;
+  color: #333333;
+}
+.confirm-btn {
+  width: 242rpx;
+  height: 84rpx;
+  line-height: 84rpx;
+  color: #fff;
+  text-align: center;
+  font-size: 30rpx;
+  background: #333333;
+  float: right;
+}
+/***确认订单2***/
+.wrap-address2 {
+  height: 162rpx;
+  align-items: center;
+  background: #fff;
+  color: #4A4A4A;
+  font-size: 32rpx;
+  padding: 0 28rpx;
+}
+.wrap-detail2 {
+  width: 600rpx;
+  font-size: 28rpx;
+  margin-top: 14rpx;
+}
+.next {
+  margin-left: 52rpx;
+}
+.defaults {
+  color: #66D3FF;
+}

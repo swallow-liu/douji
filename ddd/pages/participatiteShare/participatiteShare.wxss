@@ -1,0 +1,58 @@
+/* pages/participatiteShare/participatiteShare.wxss */
+.img {
+  width: 176rpx;
+  height: 176rpx;
+  border-radius: 8rpx;
+}
+.list {
+  border-bottom: 20rpx solid #f5f5f5;
+  padding: 28rpx 32rpx;
+}
+.wrap-title {
+  width: 260rpx;
+  margin-left: 22rpx;
+  height: 100%;
+}
+.title {
+  color: #333;
+  font-size: 32rpx;
+}
+.content {
+  color: #777;
+  font-size: 24rpx;
+  margin-top: 18rpx;
+}
+.date {
+  color: #777;
+  font-size: 24rpx;
+  margin-top: 54rpx;
+}
+.wrap-click {
+  font-size: 24rpx; 
+}
+.invite {
+  background: #FFFFFF;
+  border: 1px solid #999999;
+  border-radius: 4px;
+  width: 128rpx;
+  height: 48rpx;
+  text-align: center;
+  line-height: 48rpx;
+  font-size: 28rpx;
+  color: #333;
+  margin: 32rpx 0 14rpx 0;
+}
+.pri {
+  color: #F72427;
+  font-size: 24rpx;
+}
+.ori-pri {
+  color: #999999;
+  font-size: 26rpx;
+  text-decoration: line-through;
+  margin-left: 14rpx;
+}
+.que {
+  color: #F72427;
+  margin-left: 40rpx;
+}

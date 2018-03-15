@@ -1,0 +1,30 @@
+<!--pages/personInfo/personInfo.wxml 个人资料-->
+<view class='personInfo'>
+<view class='personInfo-content'>
+  <view class='header flex'>
+    <view class='flex1'>头像</view>
+    <image src='/images/imgtest.png' class='header-img'></image>
+    <image src='/images/next.png' class='next'></image>
+  </view>
+   <view class='personInfo-list flex'>
+    <view class='flex1'>昵称</view>
+    <view class='personInfo-info'>昵称</view>
+    <image src='/images/next.png' class='next'></image>
+  </view>
+  <view class='personInfo-list flex'>
+    <view class='flex1'>性别</view>
+    <view class='personInfo-info'>女</view>
+    <image src='/images/next.png' class='next'></image>
+  </view>
+  <view class='personInfo-list flex'>
+    <view class='flex1'>年龄</view>
+    <view class='personInfo-info'>28</view>
+    <image src='/images/next.png' class='next'></image>
+  </view>
+  <view class='personInfo-list flex'>
+    <view class='flex1'>个人介绍</view>
+    <view class='personInfo-info'>test</view>
+    <image src='/images/next.png' class='next'></image>
+  </view>
+  </view>
+</view>

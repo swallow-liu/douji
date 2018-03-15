@@ -1,0 +1,23 @@
+/* pages/payDetail/payDetail.wxss */
+/*微信支付 的文字样式*/
+.pay-detail-main {
+  font-size: 30rpx;
+  color: #333333;
+}
+.pay-text {
+ padding: 52rpx 28rpx 70rpx 28rpx;
+ border-bottom: 1px solid #e9e9e9;
+}
+.pay-detail-list {
+  padding: 32rpx 28rpx 52rpx 28rpx;
+  border-bottom: 1px solid #e9e9e9;
+}
+.pay-detail-list>view {
+  margin-top: 14rpx;
+}
+.pay-detail-list-title {
+  color: #999999;
+}
+.date-left {
+  margin:0 20rpx;
+}

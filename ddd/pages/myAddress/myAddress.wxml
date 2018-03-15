@@ -1,0 +1,37 @@
+<!--pages/myAddress/myAddress.wxml 我的收货地址-->
+<view>
+<view class='flex head'>
+<view class='flex1'>我的收获地址</view><view class='confirm'>完成</view>
+</view>
+
+<view>
+  <view class='list flex'>
+  <view class='list-one'>
+  <view class='flex'>
+  <view class='name'>落落</view>
+  <view>1826222723</view>
+  </view>
+  <view class='detail'>北京市谢谢谢谢谢谢谢谢谢谢谢谢谢谢谢谢</view>
+  </view>
+  <view>
+  <image src='/images/edit.png' class='edit'></image>
+  <image src='/images/delete.png' class='delete'></image>
+  </view>
+  </view>
+
+  <view class='list flex'>
+  <view class='list-one'>
+  <view class='flex'>
+  <view class='name'>落落</view>
+  <view>1826222723</view>
+  </view>
+  <view class='detail'>北京市谢谢谢谢谢谢谢谢谢谢谢谢谢谢谢谢</view>
+  </view>
+  <view>
+  <image src='/images/edit.png' class='edit'></image>
+  <image src='/images/delete.png' class='delete'></image>
+  </view>
+  </view>
+
+</view>
+</view>

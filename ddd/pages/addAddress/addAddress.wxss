@@ -1,0 +1,24 @@
+/* pages/addAddress/addAddress.wxss */
+.addaddress {
+  color: #333333;
+  font-size: 28rpx;
+}
+.address-list {
+  height: 106rpx;
+  align-items: center;
+  border-bottom: 1px solid #F5F5F5;
+  padding: 0 36rpx 0 28rpx;
+}
+.wrap-input {
+  margin-left: 158rpx;
+}
+.confirm {
+  width: 440rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  background: #333333;
+  border-radius: 2px;
+  color: #ffffff;
+  text-align: center;
+  margin: 600rpx auto 0 auto;
+}

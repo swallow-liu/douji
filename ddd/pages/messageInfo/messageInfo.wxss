@@ -1,0 +1,56 @@
+/* pages/messageInfo/messageInfo.wxss */
+.wrap-textbutton {
+  text-align: center;
+  margin-bottom: 40rpx;
+}
+.title-button {
+  display: inline-block;
+  width: 226rpx;
+  height: 60rpx;
+  border: 1px solid #f5f5f5;
+  color: #333333;
+  font-size: 28rpx;
+  line-height: 60rpx;
+}
+.title-button-left {
+  border-right: none;
+}
+.title-button-right {
+  border-left: none;
+}
+.active {
+  background: #f5f5f5;
+}
+.meg-img {
+  width: 100rpx;
+  height: 100rpx;
+}
+.messagelist {
+  width: 100%;
+  padding: 0 16rpx;
+}
+.wrap-list {
+  height: 138rpx;
+  border-bottom: 1px solid #f7f7f7;
+  align-items: center;
+}
+.wrap-content {
+  width: 100%;
+  margin-left: 26rpx;
+}
+.list-content {
+  color: #999999;
+  font-size: 26rpx;
+}
+.list-title {
+  color: #333333;
+  font-size: 30rpx;
+  margin-right: 370rpx;
+}
+.list-date {
+  color: #999999;
+  font-size: 20rpx;
+}
+.wrap-title {
+  align-items: center;
+}

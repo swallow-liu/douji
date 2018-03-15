@@ -1,0 +1,11 @@
+<!--pages/myComment/myComment.wxml 我的评论-->
+<view class='comment-main'>
+<view class='flex mycomment'>
+  <image src='/images/imgtest.png' class='mycomment-img'></image>
+  <view class='mycomment-detail flex1'>
+    <view class='mycomment-username'>烟雨微茫</view> 
+    <view class='mycomment-date'>2017-11-11<text>16:00</text></view> 
+    <view class='mycomment-centent'>烟雨微茫烟雨微茫烟雨微茫烟雨微茫烟雨微茫烟雨微茫烟雨微茫烟雨微茫烟雨微茫烟雨微茫烟雨微茫烟雨微茫烟雨微茫烟雨微茫烟雨微茫烟雨微茫烟雨微茫烟雨微茫烟雨微茫</view> 
+  </view>
+</view>
+</view>

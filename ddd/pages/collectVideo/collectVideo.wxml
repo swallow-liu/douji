@@ -1,0 +1,41 @@
+<!--pages/collectVideo/collectVideo.wxml 我收藏的视频-->
+<view>
+<view class='wrap-list'>
+  <view>
+  <view class='relative'>
+  <image src='/images/imgtest.png' class='img'></image>
+  <view class='wrap-like'>
+  <image src='/images/video-like.png' class='like'></image>
+  <text>344</text>
+  </view>
+  </view>
+  <view class='title'>阿拉伯舞蹈</view>
+  <image src='/images/imgtest.png' class='head'></image>
+  <text class='name'>那时花开</text>
+  </view>
+   <view>
+  <view class='relative'>
+  <image src='/images/imgtest.png' class='img'></image>
+  <view class='wrap-like'>
+  <image src='/images/video-like.png' class='like'></image>
+  <text>344</text>
+  </view>
+  </view>
+  <view class='title'>阿拉伯舞蹈</view>
+  <image src='/images/imgtest.png' class='head'></image>
+  <text class='name'>那时花开</text>
+  </view>
+   <view>
+  <view class='relative'>
+  <image src='/images/imgtest.png' class='img'></image>
+  <view class='wrap-like'>
+  <image src='/images/video-like.png' class='like'></image>
+  <text>344</text>
+  </view>
+  </view>
+  <view class='title'>阿拉伯舞蹈</view>
+  <image src='/images/imgtest.png' class='head'></image>
+  <text class='name'>那时花开</text>
+  </view>
+</view>
+</view>

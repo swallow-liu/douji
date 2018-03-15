@@ -1,0 +1,103 @@
+<!--pages/filtrate/filtrate.wxml 筛选产品-->
+<view>
+  <view class='wrap-head'>
+  <view class='flex relative'>
+    <input type='text' placeholder='搜索产品，视频' class='filter-input'></input>
+    <image src='/images/search.png' class='search'></image>
+    <text class='filter-text'>筛选</text>
+  </view>
+  <view class='wrap-filter'>
+    <view>产品类型</view>
+    <view class='flex wrap-filter-title'>
+      <view class='fiter-title'>生活类</view>
+      <view class='fiter-title'>生活类</view>
+      <view class='fiter-title'>生活类</view>
+      <view class='fiter-title'>生活类</view>
+      <view class='fiter-title'>生活类</view>
+    </view>
+  </view>
+  <!--  筛选视频 -->
+  <view class='wrap-filter'>
+    <view>视频类型</view>
+    <view class='flex wrap-filter-title'>
+      <view class='fiter-title'>纪实</view>
+      <view class='fiter-title'>公益</view>
+      <view class='fiter-title'>体育</view>
+      <view class='fiter-title'>汽车</view>
+      <view class='fiter-title'>科技</view>
+      <view class='fiter-title'>文化</view>
+      <view class='fiter-title'>财经</view>
+      <view class='fiter-title'>旅游</view>
+    </view>
+  </view>
+  <!-- -->
+  <view class='wrap-filter'>
+    <view>地区</view>
+    <view class='flex wrap-filter-title'>
+      <view class='fiter-title'>北京</view>
+      <view class='fiter-title'>上海</view>
+      <view class='fiter-title'>广州</view>
+      <view class='fiter-title'>更多</view>
+    </view>
+  </view>
+  <view class='wrap-filter'>
+    <view>评价数</view>
+    <view class='flex wrap-filter-title'>
+      <view class='fiter-title'>100以内</view>
+      <view class='fiter-title'>100-500</view>
+      <view class='fiter-title'>500以上</view>
+      <view class='fiter-title'>更多</view>
+    </view>
+  </view>
+  
+
+  <view class='wrap-btn'>
+  <view class='btn'>立即查询</view>
+  <view class='btn'>完成</view>
+  </view>
+  </view>
+  <view class='border'></view>
+
+  <view>
+  <view>相关视频推荐</view>
+
+  <view class='wrap-list'>
+  <view>
+  <view class='relative'>
+  <image src='/images/imgtest.png' class='img'></image>
+  <view class='wrap-like'>
+  <image src='/images/video-like.png' class='like'></image>
+  <text>344</text>
+  </view>
+  </view>
+  <view class='title'>阿拉伯舞蹈</view>
+  <image src='/images/imgtest.png' class='head'></image>
+  <text class='name'>那时花开</text>
+  </view>
+   <view>
+  <view class='relative'>
+  <image src='/images/imgtest.png' class='img'></image>
+  <view class='wrap-like'>
+  <image src='/images/video-like.png' class='like'></image>
+  <text>344</text>
+  </view>
+  </view>
+  <view class='title'>阿拉伯舞蹈</view>
+  <image src='/images/imgtest.png' class='head'></image>
+  <text class='name'>那时花开</text>
+  </view>
+   <view>
+  <view class='relative'>
+  <image src='/images/imgtest.png' class='img'></image>
+  <view class='wrap-like'>
+  <image src='/images/video-like.png' class='like'></image>
+  <text>344</text>
+  </view>
+  </view>
+  <view class='title'>阿拉伯舞蹈</view>
+  <image src='/images/imgtest.png' class='head'></image>
+  <text class='name'>那时花开</text>
+  </view>
+</view>
+  </view>
+</view>

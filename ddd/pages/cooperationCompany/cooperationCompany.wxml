@@ -1,0 +1,26 @@
+<view class='main'>
+  <view class='flex content'>
+      <image src='/images/imgtest.png' class='head'></image>
+      <view class='flex recommend-list'>
+        <view class='flex1'>
+          <view>领域数码通信</view>
+          <view class='date'>2018-1-20</view>
+        </view>
+        <view>
+          <image src='/images/next.png' class='next'></image>
+        </view>
+      </view>
+  </view>
+  <view class='flex content'>
+      <image src='/images/imgtest.png' class='head'></image>
+      <view class='flex recommend-list'>
+        <view class='flex1'>
+          <view>领域数码通信</view>
+          <view class='date'>2018-1-20</view>
+        </view>
+        <view>
+          <image src='/images/next.png' class='next'></image>
+        </view>
+      </view>
+  </view>
+</view>

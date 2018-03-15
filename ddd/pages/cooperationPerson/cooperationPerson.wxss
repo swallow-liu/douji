@@ -1,0 +1,24 @@
+/* pages/cooperationPerson/cooperationPerson.wxss */
+.content {
+  height: 149rpx;
+  align-items: center;
+}
+.head {
+  width: 90rpx;
+  height: 92rpx;
+  border-radius: 14rpx;
+}
+.recommend-list {
+  height: 100%;
+  flex:1;
+  margin-left: 32rpx;
+  border-bottom: 1px solid #E3E3E3;
+  font-size: 32rpx;
+  color: #333333;
+  align-items: center;
+}
+.date {
+  color: #999999;
+  font-size: 24rpx;
+  margin-top: 6rpx;
+}

@@ -1,0 +1,54 @@
+<!--pages/confirmOrder/confirmOrder.wxml 确认订单-->
+<view class='page'>
+  <view class='head'>收货地址</view>
+
+  <!-- <view class='wrap-address'>
+    <view class='address-title'>请选择收获地址</view>
+    <view class='address'>注：医美产品无需送货上门，请核对手机号</view>
+  </view> -->
+
+  <!--确认订单2-->
+ <view class='wrap-address2 flex'>
+    <view>
+    <view class='flex'>
+    <view class='flex1'>落落</view>
+    <view>123344445555</view>
+    </view>
+    <view class='wrap-detail2'>
+    <text class='defaults'>[默认地址]</text><text>丁俊丁俊发挥方法减肥减肥减肥减肥减肥</text>
+    </view>
+    </view>
+    <image src='/images/next.png' class='next'></image>
+ </view>
+
+  <view class='jianyi'>
+    <text>简易通讯</text>
+  </view>
+
+  <view class='flex wrap-order'>
+    <image src='/images/imgtest.png' class='img'></image>
+    <view class='order'>
+      <view class='order-content'>iphonexhshshshshshshshs横说竖说</view>
+      <view class='flex wrap-pri'>
+        <view class='flex1 pri'>¥1388.00</view>
+        <view>X1</view>
+      </view>
+    </view>
+  </view>
+
+  <view class='flex wrap-mai'>
+  <view>买家留言</view>
+  <input type='text'></input>
+  </view>
+  <view class='border'></view>
+  <view class='wrap-mai flex'>
+  <view>匿名购买</view>
+  </view>
+
+
+  <view class='footer'>
+  <text>预约合计金额：1388</text>
+  <view class='confirm-btn'>确认订单</view>
+  </view>
+
+</view>

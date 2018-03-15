@@ -1,0 +1,26 @@
+<!--pages/notice/notice.wxml 公告-->
+<view>
+  <view class='wrap-list'>
+    <view class='list flex'>
+      <view class='content'>
+        <view class='title'>web资深全栈工程师</view>
+        <view class='date'>2018-10-10</view>
+      </view>
+      <image src='/images/imgtest.png' class='img'></image>
+    </view>
+    <view class='list flex'>
+      <view class='content'>
+        <view class='title'>web资深全栈工程师</view>
+        <view class='date'>2018-10-10</view>
+      </view>
+      <image src='/images/imgtest.png' class='img'></image>
+    </view>
+    <view class='list flex'>
+      <view class='content'>
+        <view class='title'>web资深全栈工程师</view>
+        <view class='date'>2018-10-10</view>
+      </view>
+      <image src='/images/imgtest.png' class='img'></image>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,28 @@
+/* pages/baseService/baseService.wxss */
+.content {
+  color: #555555;
+  font-size: 26rpx;
+  margin-top: 20rpx;
+}
+.title {
+  color: #333;
+  font-size: 30rpx;
+  margin-top: 24rpx;
+}
+.service {
+  padding: 40rpx 22rpx;
+}
+.remark {
+  color: #FF2121;
+  font-size: 30rpx;
+  margin-top: 36rpx;
+}
+.border {
+  height: 20rpx;
+  background: #F2F2F2;
+}
+.tuikuan {
+  text-align: center;
+  color: #333;
+  font-size: 32rpx;
+}

@@ -1,0 +1,8 @@
+<!--pages/myAccount/myAccount.wxml 我的账户-->
+<view class='myaccount'>
+<image src='/images/my-account.png' class='account-img'></image>
+<view class='account-title'>账户余额</view>
+<view class='account-money'>9879.00</view>
+<view class='recharge'>提现</view>
+<view class='recharge'>交易记录</view>
+</view>

@@ -1,0 +1,18 @@
+<!--pages/aboutDouJi/aboutDouJi.wxml-->
+<view class='personInfo'>
+<view class='personInfo-content'>
+   <view class='personInfo-list flex'>
+    <view class='flex1'>关于我们公司</view>
+    <image src='/images/next.png' class='next'></image>
+  </view>
+  <view class='personInfo-list flex'>
+    <view class='flex1'>服务条款／协议内容</view>
+    <image src='/images/next.png' class='next'></image>
+  </view>
+  <view class='personInfo-list flex'>
+    <view class='flex1'>抖计官方邮箱</view>
+    <image src='/images/next.png' class='next'></image>
+  </view>
+  </view>
+</view>
+

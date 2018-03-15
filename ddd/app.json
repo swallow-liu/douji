@@ -1,0 +1,44 @@
+{
+  "pages":[
+    "pages/baseService/baseService",
+    "pages/confirmOrder/confirmOrder",
+    "pages/myAddress/myAddress",
+    "pages/addAddress/addAddress",
+    "pages/participatiteShare/participatiteShare",
+    "pages/notice/notice",
+    "pages/comment/comment",
+    "pages/issueNotice/issueNotice",
+    "pages/myAttentionHot/myAttentionHot",
+    "pages/filtrate/filtrate",
+    "pages/uploadVideo/uploadVideo",
+    "pages/collectVideo/collectVideo",
+    "pages/messageInfo/messageInfo",
+    "pages/myorder/myorder",
+    "pages/withdraw/withdraw",
+    "pages/aboutDouJi/aboutDouJi",
+    "pages/personInfo/personInfo",
+    "pages/myComment/myComment",
+    "pages/myAccount/myAccount",
+    "pages/accountDetail/accountDetail",
+    "pages/payDetail/payDetail",
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forgetPwd/forgetPwd",
+    "pages/cooperationPerson/cooperationPerson",
+    "pages/cooperationCompany/cooperationCompany",
+    "pages/mineRecommendPerson/mineRecommendPerson",
+    "pages/mineRecommendCompany/mineRecommendCompany"
+  ],
+  "window":{
+    "backgroundTextStyle":"#f5f5f5",
+    "navigationBarBackgroundColor": "#ffffff",
+    "backgroundColor":"#fff",
+    "navigationBarTitleText": "抖技",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh": true
+  },
+  "networkTimeout": {
+    "request": 10000
+  },
+  "debug":true
+}

@@ -1,0 +1,28 @@
+/* pages/myComment/myComment.wxss */
+.comment-main {
+  border-top: 1px solid #F7F7F7;
+}
+.mycomment {
+  border-bottom: 1px solid #F7F7F7;
+  padding: 66rpx 36rpx 20rpx 36rpx;
+}
+.mycomment-img {
+  width: 72rpx;
+  height: 72rpx;
+  border-radius: 72rpx;
+}
+.mycomment-detail {
+  margin-left: 22rpx;
+}
+.mycomment-username {
+  color: #555555;
+  font-size: 28rpx;
+}
+.mycomment-centent {
+  color: #333333;
+  font-size: 28rpx;
+}
+.mycomment-date {
+  color: #999999;
+  font-size: 24rpx;
+}

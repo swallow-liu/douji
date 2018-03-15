@@ -1,0 +1,19 @@
+<view class='main'>
+<view class='login'>
+  <view class='login-wrap-input'>
+    <input type="text" placeholder='请输入您的手机号' />
+    <view class='register-verify-code'>获取验证码</view>
+  </view>
+  <view class='login-wrap-input'>
+    <input type="text" placeholder='请输入验证码' />
+  </view>
+  <view class='login-wrap-input'>
+    <input type="text" placeholder='请输入密码' />
+  </view>
+  <view class='login-wrap-input'>
+    <input type="text" placeholder='请再次输入密码' />
+  </view>
+  <view class='login-button'>注册</view>
+  </view>
+  <view class='remind'>已有账号，直接<text>登录</text></view>
+</view>

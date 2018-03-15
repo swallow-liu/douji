@@ -1,0 +1,40 @@
+/* pages/forgetPwd/forgetPwd.wxss */
+.login {
+  margin-top: 78rpx;
+}
+.login-wrap-input {
+  width: 100%;
+  border-bottom: 1rpx solid #c6c6c6;
+  margin-top: 30rpx;
+  position: relative;
+}
+.login-wrap-input>input {
+  border:none;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-indent: 20rpx;
+  font-size: 28rpx;
+  color: #323137;
+}
+.login-button {
+  background: #FFFFFF;
+  border: 1rpx solid #323137;
+  border-radius: 4px;
+  text-align: center;
+  height: 84rpx;
+  line-height: 84rpx;
+  font-size: 28rpx;
+  margin-top: 72rpx;
+}
+.register-verify-code {
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 28rpx;
+  border: 1rpx solid #999999;
+  border-radius: 4px;
+  width: 188rpx;
+  height: 56rpx;
+  text-align: center;
+  line-height: 56rpx;
+}

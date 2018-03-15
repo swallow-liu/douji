@@ -1,0 +1,33 @@
+<!--pages/messageInfo/messageInfo.wxml 消息通知-->
+<view>
+  <view class='wrap-textbutton'>
+    <text class='title-button title-button-left active'>系统消息</text>
+    <text class='title-button title-button-right'>订单消息</text>
+  </view>
+  <view class='messagelist'>
+    <view class='flex wrap-list'>
+      <image src='/images/imgtest.png' class='meg-img'></image>
+      <view class='wrap-content'>
+        <view class='flex wrap-title'>
+          <view class='list-title'>系统消息</view>
+          <view class='list-date'>昨天00:14</view>
+        </view>
+        <view>
+          <text class='list-content'>容笔仅电话电话电话电话</text>
+        </view>
+      </view>
+    </view>
+    <view class='flex wrap-list'>
+      <image src='/images/imgtest.png' class='meg-img'></image>
+      <view class='wrap-content'>
+        <view class='flex wrap-title'>
+          <view class='list-title'>系统消息</view>
+          <view class='list-date'>昨天00:14</view>
+        </view>
+        <view>
+          <text class='list-content'>容笔仅电话电话电话电话</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

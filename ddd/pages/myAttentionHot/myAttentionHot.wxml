@@ -1,0 +1,38 @@
+<!--pages/myAttentionHot/myAttentionHot.wxml 我关注的爆品-->
+<view class='attention-page'>
+
+ <view class='flex relative'>
+    <input type='text' placeholder='搜索产品，视频' class='filter-input'></input>
+    <image src='/images/search.png' class='search'></image>
+    <text class='filter-text'>筛选</text>
+  </view>
+
+<view class='wrap-hotlist'>
+  <view class='hotlist'>
+  <view class='wrap-img'>
+    <image src='/images/imgtest.png' class='hot-img'></image>
+    </view>
+    <view class='list-title'>iphone7全网通</view>
+    <view class='wrap-pri'><text class='orig-pri'>5454</text><text class='now-pri'>1388元</text><text class='orig-name'>苏宁易购</text></view>
+    <view><text class='attentioned'>被关注100</text><text class='num'>数量：2000件</text></view>
+  </view>
+
+  <view class='hotlist'>
+  <view class='wrap-img'>
+    <image src='/images/imgtest.png' class='hot-img'></image>
+    </view>
+    <view class='list-title'>iphone7全网通</view>
+    <view class='wrap-pri'><text class='orig-pri'>5454</text><text class='now-pri'>1388元</text><text class='orig-name'>苏宁易购</text></view>
+    <view><text class='attentioned'>被关注100</text><text class='num'>数量：2000件</text></view>
+  </view>
+
+  <view class='hotlist'>
+  <view class='wrap-img'>
+    <image src='/images/imgtest.png' class='hot-img'></image>
+    </view>
+    <view class='list-title'>iphone7全网通</view>
+    <view class='wrap-pri'><text class='orig-pri'>5454</text><text class='now-pri'>1388元</text><text class='orig-name'>苏宁易购</text></view>
+    <view><text class='attentioned'>被关注100</text><text class='num'>数量：2000件</text></view>
+  </view>
+</view>
+</view>

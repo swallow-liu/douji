@@ -1,0 +1,24 @@
+<!--pages/addAddress/addAddress.wxml 新增地址 修改地址-->
+<view>
+  <view class='addaddress'>
+      <view class='flex address-list'>
+        <view>姓名：</view>
+        <view class='wrap-input'><input type='text'></input></view>
+      </view>
+      <view class='flex address-list'>
+        <view>手机：</view>
+        <view class='wrap-input'><input type='text'></input></view>
+      </view>
+      <view class='flex address-list'>
+        <view>地区：</view>
+        <view class='flex1 wrap-input'><input type='text'></input></view>
+        <image src='/images/next.png' class='next'></image>
+      </view>
+      <view class='flex address-list'>
+        <view>详细地址：</view>
+        <view class='wrap-input'><input type='text'></input></view>
+      </view>
+  </view>
+
+  <view class='confirm'>确定</view>
+</view>

@@ -1,0 +1,46 @@
+<!--pages/uploadVideo/uploadVideo.wxml 我上传的视频-->
+<view>
+<view class='wrap-textbutton'>
+    <text class='title-button title-button-left active'>已通过</text>
+    <text class='title-button title-button-right'>未通过</text>
+  </view>
+<view class='wrap-list'>
+  <view>
+  <view class='relative'>
+  <image src='/images/imgtest.png' class='img'></image>
+  <view class='wrap-like'>
+  <image src='/images/video-like.png' class='like'></image>
+  <text>344</text>
+  </view>
+  </view>
+  <view class='title'>阿拉伯舞蹈</view>
+  <image src='/images/imgtest.png' class='head'></image>
+  <text class='name'>那时花开</text>
+  </view>
+   <view>
+  <view class='relative'>
+  <image src='/images/imgtest.png' class='img'></image>
+  <view class='wrap-like'>
+  <image src='/images/video-like.png' class='like'></image>
+  <text>344</text>
+  </view>
+  </view>
+  <view class='title'>阿拉伯舞蹈</view>
+  <image src='/images/imgtest.png' class='head'></image>
+  <text class='name'>那时花开</text>
+  </view>
+   <view>
+  <view class='relative'>
+  <image src='/images/imgtest.png' class='img'></image>
+  <view class='wrap-like'>
+  <image src='/images/video-like.png' class='like'></image>
+  <text>344</text>
+  </view>
+  </view>
+  <view class='title'>阿拉伯舞蹈</view>
+  <image src='/images/imgtest.png' class='head'></image>
+  <text class='name'>那时花开</text>
+  </view>
+</view>
+</view>
+

@@ -1,0 +1,32 @@
+/* pages/comment/comment.wxss */
+.wrap-star {
+  width: 360rpx;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 26rpx;
+}
+textarea {
+  color: #999;
+  font-size: 30rpx;
+  text-indent: 26rpx;
+  padding: 36rpx 0;
+  background: #fff;
+  width: 100%;
+}
+.star {
+  width: 48rpx;
+  height: 48rpx;
+}
+.wrap-fen {
+  height: 140rpx;
+  background: #fff;
+  align-items: center;
+}
+.num {
+  color: #BF3A47;
+  margin-right: 20rpx;
+}
+.wrap-num {
+  color: 32rpx;
+  margin-left: 46rpx;
+}

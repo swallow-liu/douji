@@ -1,0 +1,34 @@
+<!--pages/participatiteShare/participatiteShare.wxml 我参与的分享-->
+<view>
+<view class='wrap-list'>
+<view class='list flex'>
+  <image src='/images/imgtest.png' class='img'></image>
+  <view class='wrap-title'>
+  <view class='title'>iphone7全网通</view>
+  <view class='content'>iphone7全网通</view>
+  <view class='date'>2018-10-10</view>
+  </view>
+
+  <view>
+  <view class='wrap-click'><text>点击量：100</text><text class='que'>缺3</text></view>
+  <view class='invite'>邀请</view>
+  <view><text class='pri'>¥1980</text><text class='ori-pri'>¥1980</text></view>
+  </view>
+</view>
+
+<view class='list flex'>
+  <image src='/images/imgtest.png' class='img'></image>
+  <view class='wrap-title'>
+  <view class='title'>iphone7全网通</view>
+  <view class='content'>iphone7全网通</view>
+  <view class='date'>2018-10-10</view>
+  </view>
+
+  <view>
+  <view class='wrap-click'><text>点击量：100</text><text class='que'>缺3</text></view>
+  <view class='invite'>邀请</view>
+  <view><text class='pri'>¥1980</text><text class='ori-pri'>¥1980</text></view>
+  </view>
+</view>
+</view>
+</view>

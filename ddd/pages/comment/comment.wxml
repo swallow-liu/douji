@@ -1,0 +1,14 @@
+<!--pages/comment/comment.wxml 评价-->
+<view class='page'>
+<textarea placeholder='输入评论内容'></textarea>
+<view class='flex wrap-fen'>
+<view class='wrap-star'>
+<image src='/images/comment.png' class='star'></image>
+<image src='/images/comment.png' class='star'></image>
+<image src='/images/comment.png' class='star'></image>
+<image src='/images/comment.png' class='star'></image>
+<image src='/images/comment.png' class='star'></image>
+</view>
+<text class='wrap-num'><text class='num'>5</text>分</text>
+</view>
+</view>

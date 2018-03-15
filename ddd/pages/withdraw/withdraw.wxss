@@ -1,0 +1,60 @@
+/* pages/withdraw/withdraw.wxss */
+.page {
+  background: #F7F7F7;
+  height: 100vh;
+}
+.border {
+  width: 100%;
+  height: 30rpx;
+  background: #F7F7F7;
+}
+.wrap-wximage {
+  height: 118rpx;
+  color: #333333;
+  font-size: 36rpx;
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+  padding: 0 32rpx;
+}
+.wx-image {
+  width: 76rpx;
+  height: 76rpx;
+  margin-right: 20rpx;
+}
+.wrap-withdraw {
+  background: #ffffff;
+  padding: 22rpx 28rpx 10rpx 48rpx;
+  color: #777777;
+}
+.withdraw-title {
+  font-size: 30rpx;
+}
+.withdraw-money {
+  color: #4A4A4A;
+  font-size: 76rpx;
+  border-bottom: 1px solid #EBEBEB;
+  display: flex;
+  align-items: center;
+}
+.withdrawl-use {
+  font-size: 28rpx;
+  margin-top: 12rpx;
+}
+.all-withdrawl {
+  color: #66D3FF;
+  font-size: 28rpx;
+  margin-top: 12rpx;
+}
+.confirm {
+  width: 440rpx;
+  height: 80rpx;
+  margin: 0 auto;
+  text-align: center;
+  color: #333333;
+  font-size: 36rpx;
+  border: 1px solid #999999 ;
+  border-radius: 8rpx;
+  line-height: 80rpx;
+  margin-top: 340rpx;
+}

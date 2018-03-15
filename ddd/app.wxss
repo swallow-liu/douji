@@ -1,0 +1,29 @@
+.main {
+  border-top: 1rpx solid #e1e2e3;
+  padding: 0 40rpx;
+  font-family: PingFangSC-Regular;
+}
+.flex {
+  display: flex;
+}
+.flex1 {
+  flex:1;
+}
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right
+}
+/*这个是最右边的箭头的样式*/
+.next {
+  width: 14rpx;
+  height: 28rpx;
+}
+.page {
+  background: #F7F7F7;
+  height: 100vh;
+}
+.relative {
+  position: relative;
+}

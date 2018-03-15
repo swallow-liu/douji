@@ -1,0 +1,42 @@
+/* pages/collectVideo/collectVideo.wxss */
+.wrap-list {
+  padding: 52rpx 40rpx;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.like {
+  width: 28rpx;
+  height: 24rpx;
+  margin-right: 12rpx;
+}
+.wrap-like {
+  color: #ffffff;
+  font-size: 26rpx;
+  position: absolute;
+  top: 270rpx;
+  left:220rpx; 
+}
+.img {
+  width: 314rpx;
+  height: 314rpx;
+  border-radius: 4rpx;
+}
+.head {
+  width: 48rpx;
+  height: 48rpx;
+  border-radius: 48rpx;
+}
+.title {
+  color: #333333;
+  font-size: 32rpx;
+  margin-top: 18rpx;
+  margin-bottom: 6rpx;
+}
+.name {
+  color: #777777;
+  font-size: 26rpx;
+  position: relative;
+  top: -8rpx;
+  margin-left: 10rpx;
+}

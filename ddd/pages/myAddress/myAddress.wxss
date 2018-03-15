@@ -1,0 +1,40 @@
+/* pages/myAddress/myAddress.wxss */
+.head {
+  border-bottom: 20rpx solid #F7F7F7;
+  height: 82rpx;
+  align-items: center;
+  color: #777777;
+  font-size: 32rpx;
+  padding: 0 32rpx;
+}
+.list {
+  padding: 0 30rpx;
+  font-size: 28rpx;
+  color: #777777;
+  align-items: center;
+  height: 126rpx;
+  border-bottom: 1px solid #F7F7F7;
+}
+.list-one {
+  width: 548rpx;
+}
+.edit {
+  width: 40rpx;
+  height: 40rpx;
+  margin-left: 24rpx;
+}
+.delete {
+  width: 40rpx;
+  height: 40rpx;
+  margin-left: 24rpx;
+}
+.name {
+  font-size: 32rpx;
+  flex: 1;
+}
+.detail {
+  color: #4A4A4A;
+}
+.confirm {
+  color: #333;
+}

@@ -1,0 +1,38 @@
+.login {
+  margin-top: 78rpx;
+}
+.login-wrap-input {
+  width: 100%;
+  border-bottom: 1rpx solid #c6c6c6;
+  margin-top: 30rpx;
+}
+.login-wrap-input>input {
+  border:none;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-indent: 20rpx;
+  font-size: 28rpx;
+  color: #323137;
+}
+.login-button {
+  background: #FFFFFF;
+  border: 1rpx solid #323137;
+  border-radius: 8rpx;
+  text-align: center;
+  height: 84rpx;
+  line-height: 84rpx;
+  font-size: 28rpx;
+  margin-top: 72rpx;
+}
+/*下方的没有账号注册一个的提醒*/
+.remind {
+  width: 100%;
+  position: absolute;
+  bottom: 40rpx;
+  padding: 0 60rpx;
+  color: #535353;
+  font-size: 24rpx;
+}
+.login-forget {
+  margin-left: 294rpx;
+}

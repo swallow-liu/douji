@@ -1,0 +1,26 @@
+<!--pages/baseService/baseService.wxml 基础服务-->
+<view>
+  <view class='service'>
+    <view>
+      <view class='title'>1.1个月内无条件退货</view>
+      <view class='content'>ddddddddddd</view>
+    </view>
+    <view>
+      <view class='title'>2.满意返利</view>
+      <view class='content'>kksksjsjsjsjsj</view>
+    </view>
+    <view class='remark'>注：</view>
+  </view>
+  <view class='border'></view>
+  <view class='service'>
+  <view class='tuikuan'>退款条件</view>
+    <view>
+      <view class='title'>1.1个月内无条件退货</view>
+      <view class='content'>ddddddddddd</view>
+    </view>
+    <view>
+      <view class='title'>2.满意返利</view>
+      <view class='content'>kksksjsjsjsjsj</view>
+    </view>
+  </view>
+</view>

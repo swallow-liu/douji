@@ -1,0 +1,26 @@
+/* pages/accountDetail/accountDetail.wxss */
+.account-month {
+  padding: 0 28rpx;
+  height: 72rpx;
+  line-height: 72rpx;
+  background: #F5F4F9;
+  font-size: 32rpx;
+}
+.account-list {
+  padding: 0 28rpx;
+  height: 144rpx;
+  border-bottom: 1px solid #F7F7F7;
+  align-items: center;
+}
+.detail-title {
+  font-size: 30rpx;
+  color: #333333;
+}
+.detail-date {
+  color: #777777;
+  font-size: 26rpx;
+}
+.detail-money {
+  color: #239BE3;
+  font-size: 40rpx;
+}

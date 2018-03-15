@@ -1,0 +1,8 @@
+<!--pages/issueNotice/issueNotice.wxml 发布公告-->
+<view>
+<textarea placeholder='输入发布公告的内容（不得超过30个字）'>
+
+</textarea>
+<image src='/images/add.png' class='add'></image>
+<view class='confirm'>确认</view>
+</view>

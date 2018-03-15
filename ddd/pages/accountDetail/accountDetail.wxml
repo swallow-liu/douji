@@ -1,0 +1,28 @@
+<!--pages/accountDetail/accountDetail.wxml 账户明细-->
+<view>
+  <view class='account-month'>本月</view>
+  <view>
+  <view class='account-list flex'>
+    <view class='flex flex1'>
+      <view class='flex1'>
+        <view class='detail-title'>充值</view>
+        <view class='detail-date'>2017-11-12</view>
+      </view>
+      <view class='detail-money'>
+        <text>+</text>8888
+      </view>
+    </view>
+  </view>
+    <view class='account-list flex'>
+    <view class='flex flex1'>
+      <view class='flex1'>
+        <view class='detail-title'>充值</view>
+        <view class='detail-date'>2017-11-12</view>
+      </view>
+      <view class='detail-money'>
+        <text>+</text>8888
+      </view>
+    </view>
+  </view>
+  </view>
+</view>

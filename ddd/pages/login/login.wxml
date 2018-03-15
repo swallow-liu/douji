@@ -1,0 +1,15 @@
+<view class='main'>
+<view class='login'>
+  <view class='login-wrap-input'>
+    <input type="text" placeholder='请输入您的手机号' />
+  </view>
+  <view class='login-wrap-input'>
+    <input type="text" placeholder='请输入您的密码' />
+  </view>
+  <view class='login-button'>登录</view>
+  </view>
+</view>
+<view class='remind flex'>
+  <view>没有账号，注册一个</view>
+  <view class='login-forget'>忘记密码？</view>
+</view>
