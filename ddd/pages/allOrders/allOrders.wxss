@@ -1,0 +1,100 @@
+/* pages/allOrders/allOrders.wxss */
+.swiper-tab {
+	width: 100%;
+	border-bottom: 2rpx solid #f7f7f7;
+	text-align: center;
+	line-height: 80rpx;
+  background: #fff;
+  }
+.swiper-tab-list {  
+  font-size: 30rpx;
+  display: inline-block;
+	width: 25%;
+	color: #777777;
+}
+.on { 
+  color: #333;
+	border-bottom: 5rpx solid #333;
+  }
+.swiper-box { 
+  display: block; 
+  height: 100%; 
+  width: 100%; 
+  overflow: hidden; 
+  }
+/*关于订单的样式*/
+.order-title {
+  color: #333;
+  font-size: 26rpx;
+  background: #fff;
+  height: 84rpx;
+  align-items: center;
+  padding: 0 36rpx;
+}
+.order-img {
+  width: 40rpx;
+  height: 40rpx;
+  border-radius: 40rpx;
+}
+.img {
+  width: 186rpx;
+  height: 186rpx;
+  border-radius: 2px;
+}
+.order-titles {
+  font-size: 28rpx;
+  color: #4a4a4a;
+}
+.wrap-detail {
+  padding: 20rpx 36rpx;
+}
+.order-button {
+  background: #fff;
+  height: 86rpx;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+.qiye-title {
+  width: 480rpx;
+  margin-left: 6rpx;
+}
+.wrap-order-title {
+  margin-left: 40rpx;
+}
+.order-button text {
+  border: 1px solid #999999;
+  border-radius: 4px;
+  width: 140rpx;
+  height: 44rpx;
+  display: inline-block;
+  line-height: 44rpx;
+  color: #333;
+  font-size: 26rpx;
+  text-align: center;
+  margin-right: 20rpx;
+}
+.orderlist {
+  margin-bottom: 20rpx;
+}
+.num {
+  color: #777;
+  font-size: 24rpx;
+  margin-top: 52rpx;
+}
+.ori {
+  color: #D0021B;
+  font-size: 28rpx;
+}
+.oris {
+  text-decoration: line-through;
+  color: #777777;
+  font-size: 24rpx;
+  margin-left: 28rpx;
+  display: inline-block;
+  width: 300rpx;
+}
+.nums {
+  color: #333;
+  font-size: 28rpx;
+}

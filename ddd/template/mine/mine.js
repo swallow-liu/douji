@@ -1,11 +1,11 @@
-// pages/messageInfo/messageInfo.js
+// template/mine/mine.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-      current:'0'
+  
   },
 
   /**
@@ -62,10 +62,5 @@ Page({
    */
   onShareAppMessage: function () {
   
-  },
-  setInfo:function(e) {
-      var that = this;
-      let current = e.target.dataset.current;
-      that.setData({ current: current})
   }
 })

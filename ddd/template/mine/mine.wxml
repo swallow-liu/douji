@@ -1,0 +1,79 @@
+<!--template/mine/mine.wxml 我的首页-->
+<!-- <template name="mine"> -->
+<view class='page'>
+  <view class='flex wrap-head'>
+    <image src='/images/imgtest.png' class='mine-head'></image>
+    <view class='mine-head-title'>
+    <view>昵称</view>
+    <view class='mine-head-des'>喜欢是声色犬马</view>
+    </view>
+    <view>
+    <text class='mine-button right'>申请艺人</text>
+    <text class='mine-button'>申请技师</text>
+    </view>
+  </view>
+  <view class='border'></view>
+  <view class='mine-wrap-list'>
+
+  <view class='flex mine-list'>
+  <image src='/images/mine/meg.png' class='mine-icon'></image>
+  <view class='flex1'>消息通知</view>
+  <image src='/images/next.png' class='next'></image>
+  </view>
+
+  <view class='flex mine-list'>
+  <image src='/images/mine/order.png' class='mine-icon'></image>
+  <view class='flex1'>我的订单</view>
+  <image src='/images/next.png' class='next'></image>
+  </view>
+  <view class='flex mine-list'>
+  <image src='/images/mine/account.png' class='mine-icon'></image>
+  <view class='flex1'>我的账户</view>
+  <image src='/images/next.png' class='next'></image>
+  </view>
+  <view class='flex mine-list'>
+  <image src='/images/mine/comment.png' class='mine-icon'></image>
+  <view class='flex1'>我的评论</view>
+  <image src='/images/next.png' class='next'></image>
+  </view>
+  <view class='flex mine-list'>
+  <image src='/images/mine/attention.png' class='mine-icon'></image>
+  <view class='flex1'>我关注的产品</view>
+  <image src='/images/next.png' class='next'></image>
+  </view>
+  <view class='flex mine-list'>
+  <image src='/images/mine/myvideo.png' class='mine-icon'></image>
+  <view class='flex1'>我收藏的视频</view>
+  <image src='/images/next.png' class='next'></image>
+  </view>
+  <view class='flex mine-list'>
+  <image src='/images/mine/qiye.png' class='mine-icon'></image>
+  <view class='flex1'>我关注的企业</view>
+  <image src='/images/next.png' class='next'></image>
+  </view>
+
+   <view class='flex mine-list'>
+  <image src='/images/mine/user.png' class='mine-icon'></image>
+  <view class='flex1'>我关注的艺人</view>
+  <image src='/images/next.png' class='next'></image>
+  </view>
+
+   <view class='flex mine-list'>
+  <image src='/images/mine/share.png' class='mine-icon'></image>
+  <view class='flex1'>我参与的分享</view>
+  <image src='/images/next.png' class='next'></image>
+  </view>
+  <view class='border'></view>
+   <view class='flex mine-list'>
+  <image src='/images/mine/about.png' class='mine-icon'></image>
+  <view class='flex1'>关于抖计</view>
+  <image src='/images/next.png' class='next'></image>
+  </view>
+   <view class='flex mine-list'>
+  <image src='/images/mine/set.png' class='mine-icon'></image>
+  <view class='flex1'>设置</view>
+  <image src='/images/next.png' class='next'></image>
+  </view>
+  </view>
+  </view>
+<!-- </template> -->

@@ -1,66 +1,95 @@
 // pages/register/register.js
+var http = require('../../http/http.js')
+var common = require('../../common.js')
 Page({
-
   /**
    * 页面的初始数据
    */
   data: {
-  
+    mobile:'',
+    code:'',
+    pwd:'',
+    secondPwd:'',
+    time: 60,
+    getCode: false
   },
-
-  /**
-   * 生命周期函数--监听页面加载
-   */
-  onLoad: function (options) {
-  
+  getVerify: function(e) {
+    let url = http.api.GetCode;
+    const self = this
+    wx.request({
+      url: url,
+      data: { mobile: this.data.mobile },
+      method: 'POST',
+      header: {
+        'Content-Type': 'application/x-www-form-urlencoded' // 默认值
+      },
+      success: function (res) {
+        console.log(res.data)
+        self.setData({ getCode: true })
+        let Timer = setInterval(() => {
+          self.setData({ time: self.data.time - 1 })
+          if (self.data.time === 0) {
+            clearInterval(Timer)
+            self.setData({ getCode: false })
+          }
+        }, 1000)
+      },
+      fail: function () {
+        common.Toast('获取验证码失败')
+      }
+    })
   },
-
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady: function () {
-  
+  bindTelInput: function(e) {
+    this.setData({
+      mobile: e.detail.value
+    })
   },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow: function () {
-  
+  bindCodeInput: function(e) {
+    this.setData({
+      code: e.detail.value
+    })
   },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide: function () {
-  
+  bindPwdInput: function(e) {
+    this.setData({
+      pwd: e.detail.value
+    })
   },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload: function () {
-  
+  bindSecondInput: function(e) {
+    this.setData({
+      secondPwd: e.detail.value
+    })
   },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function () {
-  
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function () {
-  
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {
-  
+  Register: function () {
+    let url = http.api.Register
+    wx.request({
+      url: url,
+      data: { user_login: this.data.mobile, user_pass: this.data.pwd, user_pass2: this.data.secondPwd, code: this.data.code },
+      method: 'POST',
+      header: {
+        'Content-Type': 'application/x-www-form-urlencoded' // 默认值
+      },
+      success: function (res) {
+        console.info('res.data', res)
+        let code = res.data.data.code
+       if(code === 0) {
+         wx.showToast({
+           title: '注册成功',
+           icon: 'none',
+           duration: 2000,
+           success: function() {
+             wx.redirectTo({
+               url: '/pages/login/login',
+             })
+           }
+         })
+       } else if (code === 1005) {
+         common.Toast('密码不能纯数字或字母')
+       } else if(code === 1004) {
+         common.Toast('密码必须长度在6-12位')
+       }else {
+         common.Toast('验证码失效')
+       }
+      }
+    })
   }
 })

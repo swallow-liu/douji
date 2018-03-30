@@ -1,0 +1,14 @@
+<!--pages/applyJiren/applyJiren.wxml 申请技人-->
+<view>
+<textarea placeholder='上传相关证件照片，毕业照等相关资料' bindinput="textInput">
+</textarea>
+<view class='flex wrapImg'>
+<image src="{{chooseImg}}" class='choose'></image>
+</view>
+<image src='/images/add.png' class='add' bindtap='selectVideo' wx:if="{{chooseImg.length === 0}}"></image>
+<view class='border'></view>
+<textarea placeholder='请简单描述一下自己' class='des'></textarea>
+<view class='border'></view>
+<input type='text' placeholder='输入推荐人编码' class='tuijian'></input>
+<view class='confirm' bindtap='confirmVideo'>发布申请</view>
+</view>

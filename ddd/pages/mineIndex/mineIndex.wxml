@@ -1,0 +1,231 @@
+<!--pages/mineIndex/mineIndex.wxml 我的首页 下方有tab栏的-->
+<import src='/template/mine/mine.wxml' />
+<view class="swiper-tab">
+  <!-- <view class="swiper-tab-list {{currentTab==0 ? 'on' : ''}}" data-current="0" bindtap="swichNav">
+    <view class='wrap-icon'>
+      <image src="{{currentTab == 0 ?'/images/index-select-icon.png':'/images/index-icon.png'}}" class='icon'></image>
+    </view>
+    首页</view> -->
+    <view class="swiper-tab-list {{currentTab==0 ? 'on' : ''}}" data-current="0" bindtap="swichNav" data-name="上传视频">
+    <view class='wrap-icon'>
+      <image src="{{currentTab == 0 ?'/images/index-select-icon.png':'/images/index-icon.png'}}" class='icon'></image>
+    </view>
+    上传视频</view>
+  <view class="swiper-tab-list {{currentTab==1 ? 'on' : ''}}" data-current="1" bindtap="swichNav" data-name="抖计">
+    <view class='wrap-icon'>
+      <image src="{{currentTab == 1 ?'/images/douji-select-icon.png':'/images/douji-icon.png'}}" class='icon'></image>
+    </view>抖计</view>
+  <view class="swiper-tab-list {{currentTab==2 ? 'on' : ''}}" data-current="2" bindtap="swichNav" data-name="爆品">
+    <view class='wrap-icon'>
+      <image src="{{currentTab == 2 ?'/images/hot-select-icon.png':'/images/hot-icon.png'}}" class='icon'></image>
+    </view>爆品</view>
+  <view class="swiper-tab-list {{currentTab==3 ? 'on' : ''}}" data-current="3" bindtap="swichNav" data-name="我的">
+    <view class='wrap-icon'>
+      <image src="{{currentTab == 3 ?'/images/mine-select-icon.png':'/images/mine-icon.png'}}" class='icon'></image>
+    </view>我的</view>
+</view>
+
+<swiper current="{{currentTab}}" class="swiper-box" duration="300" style="height:{{winHeight - 31}}px" bindchange="bindChange">
+  <!-- 我是哈哈 这个是首页的-->
+  <!-- <swiper-item>
+    <view>我是哈哈</view>
+  </swiper-item> -->
+  <!--这个是上传视频-->
+  <swiper-item>
+    <navigator url='/pages/selectVideo/selectVideo' hover-class='none'><view class='upload'>本地上传</view></navigator>
+  </swiper-item>
+  <!-- 我是呵呵 -->
+  <swiper-item>
+  <view class='douji-tab'>
+  <view class='right-douji active'>炫技</view>
+  <view class='right-douji'>授技</view>
+  <view>公告</view>
+  </view>
+  <navigator url='/pages/filtrate/filtrate' hover-class='none'><view class='filter-text-douji'>筛选</view></navigator>
+ <view>
+<view class='v-wrap-list'>
+  <view>
+  <view class='relative'>
+  <video src='http://tmp/wx48cc280f8a14872f.o6zAJs4Jl9qCfk2zeaz-96029uM4.33faf100d9e9f41a889898b3a8670a99.mp4' class='v-img' show-center-play-btn='false'></video>
+  <view class='v-wrap-like'>
+  <image src='/images/video-like.png' class='v-like'></image>
+  <text>344</text>
+  </view>
+  </view>
+  <view class='v-title'>阿拉伯舞蹈</view>
+  <image src='/images/imgtest.png' class='v-head'></image>
+  <text class='v-name'>那时花开</text>
+  </view>
+   <view>
+  <view class='relative'>
+  <image src='/images/imgtest.png' class='v-img'></image>
+  <view class='v-wrap-like'>
+  <image src='/images/video-like.png' class='v-like'></image>
+  <text>344</text>
+  </view>
+  </view>
+  <view class='v-title'>阿拉伯舞蹈</view>
+  <image src='/images/imgtest.png' class='v-head'></image>
+  <text class='v-name'>那时花开</text>
+  </view>
+   <view>
+  <view class='relative'>
+  <image src='/images/imgtest.png' class='v-img'></image>
+  <view class='v-wrap-like'>
+  <image src='/images/video-like.png' class='v-like'></image>
+  <text>344</text>
+  </view>
+  </view>
+  <view class='v-title'>阿拉伯舞蹈</view>
+  <image src='/images/imgtest.png' class='v-head'></image>
+  <text class='v-name'>那时花开</text>
+  </view>
+</view>
+</view>
+  </swiper-item>
+  <!-- 我是嘿嘿 -->
+  <swiper-item>
+  <navigator url='/pages/filtrate/filtrate' hover-class='none'>
+  <view class='flex relative wrap-hot-search'>
+    <input type='text' placeholder='搜索产品，视频' class='filter-input'></input>
+    <image src='/images/search.png' class='search'></image>
+    <text class='filter-text'>筛选</text>
+  </view></navigator>
+  <view class='flex wrap-pro'>
+    <view class='wrap-pro-list'>
+      <view>
+        <image src='/images/imgtest.png' class='product-img'></image>
+      </view>
+      <view class='pro-title'>iphone7全网通</view>
+      <view class='wrap-pri'>
+        <text class='ori-pri'>5388</text>
+        <text class='now-pri'>1700元</text>
+        <text class='name'>苏宁易购</text>
+      </view>
+      <view class='wrap-num'>
+        <text>五星好评率：</text>
+        <text>100%</text>
+        <text class='num'>退货率</text>
+        <text>100%</text>
+      </view>
+    </view>
+      <view class='wrap-pro-list'>
+      <view>
+        <image src='/images/imgtest.png' class='product-img'></image>
+      </view>
+      <view class='pro-title'>iphone7全网通</view>
+      <view class='wrap-pri'>
+        <text class='ori-pri'>5388</text>
+        <text class='now-pri'>1700元</text>
+        <text class='name'>苏宁易购</text>
+      </view>
+      <view class='wrap-num'>
+        <text>五星好评率：</text>
+        <text>100%</text>
+        <text class='num'>退货率</text>
+        <text>100%</text>
+      </view>
+    </view>
+      <view class='wrap-pro-list'>
+      <view>
+        <image src='/images/imgtest.png' class='product-img'></image>
+      </view>
+      <view class='pro-title'>iphone7全网通</view>
+      <view class='wrap-pri'>
+        <text class='ori-pri'>5388</text>
+        <text class='now-pri'>1700元</text>
+        <text class='name'>苏宁易购</text>
+      </view>
+      <view class='wrap-num'>
+        <text>被关注</text>
+        <text>100</text>
+        <text class='num'>数量</text>
+        <text>2000件</text>
+      </view>
+    </view>
+    </view>
+  </swiper-item>
+  <swiper-item>
+   <view class='page'>
+  <view class='flex wrap-head'>
+    <image src='/images/imgtest.png' class='mine-head'></image>
+    <view class='mine-head-title'>
+    <view>昵称</view>
+    <view class='mine-head-des'>喜欢是声色犬马</view>
+    </view>
+    <view>
+    <navigator url='/pages/applyJiren/applyJiren' hover-class='none' class='inline'><text class='mine-button right'>申请艺人</text></navigator>
+    <navigator url='/pages/applyJiren/applyJiren' hover-class='none' class='inline'><text class='mine-button'>申请技师</text></navigator>
+    </view>
+  </view>
+  <view class='border'></view>
+  <view class='mine-wrap-list'>
+<navigator url='/pages/messageInfo/messageInfo' hover-class='none'>
+  <view class='flex mine-list'>
+  <image src='/images/mine/meg.png' class='mine-icon'></image>
+  <view class='flex1'>消息通知</view>
+  <image src='/images/next.png' class='next'></image>
+  </view></navigator>
+<navigator url='/pages/allOrders/allOrders' hover-class='none'>
+  <view class='flex mine-list'>
+  <image src='/images/mine/order.png' class='mine-icon'></image>
+  <view class='flex1'>我的订单</view>
+  <image src='/images/next.png' class='next'></image>
+  </view></navigator>
+  <navigator url='/pages/myAccount/myAccount' hover-class='none'>
+  <view class='flex mine-list'>
+  <image src='/images/mine/account.png' class='mine-icon'></image>
+  <view class='flex1'>我的账户</view>
+  <image src='/images/next.png' class='next'></image>
+  </view></navigator>
+  <navigator url='/pages/myComment/myComment' hover-class='none'>
+  <view class='flex mine-list'>
+  <image src='/images/mine/comment.png' class='mine-icon'></image>
+  <view class='flex1'>我的评论</view>
+  <image src='/images/next.png' class='next'></image>
+  </view></navigator>
+  <view class='flex mine-list'>
+  <image src='/images/mine/attention.png' class='mine-icon'></image>
+  <view class='flex1'>我关注的产品</view>
+  <image src='/images/next.png' class='next'></image>
+  </view>
+  <navigator url='/pages/collectVideo/collectVideo' hover-class='none'>
+  <view class='flex mine-list'>
+  <image src='/images/mine/myvideo.png' class='mine-icon'></image>
+  <view class='flex1'>我收藏的视频</view>
+  <image src='/images/next.png' class='next'></image>
+  </view></navigator>
+  <navigator url='/pages/cooperationCompany/cooperationCompany' hover-class='none'>
+  <view class='flex mine-list'>
+  <image src='/images/mine/qiye.png' class='mine-icon'></image>
+  <view class='flex1'>我关注的企业</view>
+  <image src='/images/next.png' class='next'></image>
+  </view></navigator>
+<navigator url='/pages/cooperationPerson/cooperationPerson' hover-class='none'>
+   <view class='flex mine-list'>
+  <image src='/images/mine/user.png' class='mine-icon'></image>
+  <view class='flex1'>我关注的艺人</view>
+  <image src='/images/next.png' class='next'></image>
+  </view></navigator>
+  <navigator url='/pages/participatiteShare/participatiteShare' hover-class='none'>
+   <view class='flex mine-list'>
+  <image src='/images/mine/share.png' class='mine-icon'></image>
+  <view class='flex1'>我参与的分享</view>
+  <image src='/images/next.png' class='next'></image>
+  </view></navigator>
+  <view class='border'></view>
+  <navigator url='/pages/aboutDouJi/aboutDouJi' hover-class='none'>
+   <view class='flex mine-list'>
+  <image src='/images/mine/about.png' class='mine-icon'></image>
+  <view class='flex1'>关于抖计</view>
+  <image src='/images/next.png' class='next'></image>
+  </view></navigator>
+   <view class='flex mine-list'>
+  <image src='/images/mine/set.png' class='mine-icon'></image>
+  <view class='flex1'>设置</view>
+  <image src='/images/next.png' class='next'></image>
+  </view>
+  </view>
+  </view>
+  </swiper-item>
+</swiper>

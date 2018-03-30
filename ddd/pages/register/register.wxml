@@ -1,19 +1,20 @@
 <view class='main'>
 <view class='login'>
-  <view class='login-wrap-input'>
-    <input type="text" placeholder='请输入您的手机号' />
-    <view class='register-verify-code'>获取验证码</view>
+  <view class='login-wrap-input flex'>
+    <input type="text" placeholder='请输入您的手机号' bindinput="bindTelInput" class='flex1'/>
+    <view class='register-verify-code' bindtap='getVerify' wx:if="{{!getCode}}">获取验证码</view>
+    <view class='register-verify-code' wx:else>{{time}}S</view>
   </view>
   <view class='login-wrap-input'>
-    <input type="text" placeholder='请输入验证码' />
+    <input type="text" placeholder='请输入验证码' bindinput="bindCodeInput"/>
   </view>
   <view class='login-wrap-input'>
-    <input type="text" placeholder='请输入密码' />
+    <input type="password" placeholder='请输入密码' bindinput="bindPwdInput"/>
   </view>
   <view class='login-wrap-input'>
-    <input type="text" placeholder='请再次输入密码' />
+    <input type="password" placeholder='请再次输入密码' bindinput="bindSecondInput"/>
   </view>
-  <view class='login-button'>注册</view>
+  <view class='login-button' bindtap='Register'>注册</view>
   </view>
-  <view class='remind'>已有账号，直接<text>登录</text></view>
+  <view class='remind'>已有账号，直接<navigator url='/pages/login/login' hover-class='none' class='navigator'><text>登录</text></navigator></view>
 </view>

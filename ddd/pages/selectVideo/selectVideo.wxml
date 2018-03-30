@@ -1,0 +1,10 @@
+<!--pages/selectVideo/selectVideo.wxml 选取视频-->
+<view>
+<textarea placeholder='取个好标题，有利于审核通过哦' bindinput="textInput">
+</textarea>
+<view class='flex wrapImg'>
+<image src="{{chooseImg}}" class='choose'></image>
+</view>
+<image src='/images/add.png' class='add' bindtap='selectVideo' wx:if="{{chooseImg.length === 0}}"></image>
+<view class='confirm' bindtap='confirmVideo'>发布申请</view>
+</view>

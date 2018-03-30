@@ -27,9 +27,6 @@
   margin-top: 72rpx;
 }
 .register-verify-code {
-  position: absolute;
-  right: 0;
-  top: 0;
   font-size: 28rpx;
   border: 1rpx solid #999999;
   border-radius: 4px;
@@ -50,4 +47,7 @@
 }
 .remind text {
   color: #007FFF;
+}
+.navigator {
+  display: inline-block;
 }

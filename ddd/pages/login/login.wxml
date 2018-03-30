@@ -1,15 +1,15 @@
 <view class='main'>
 <view class='login'>
   <view class='login-wrap-input'>
-    <input type="text" placeholder='请输入您的手机号' />
+    <input type="text" placeholder='请输入您的手机号' bindinput="bindTelInput"/>
   </view>
   <view class='login-wrap-input'>
-    <input type="text" placeholder='请输入您的密码' />
+    <input type="password" placeholder='请输入您的密码' bindinput="bindPwdInput"/>
   </view>
-  <view class='login-button'>登录</view>
+  <view class='login-button' bindtap='login'>登录</view>
   </view>
 </view>
 <view class='remind flex'>
-  <view>没有账号，注册一个</view>
-  <view class='login-forget'>忘记密码？</view>
+  <navigator url='/pages/register/register' hover-class="none"><view>没有账号，注册一个</view></navigator>
+  <navigator url='/pages/forgetPwd/forgetPwd' hover-class="none"><view class='login-forget'>忘记密码？</view></navigator>
 </view>

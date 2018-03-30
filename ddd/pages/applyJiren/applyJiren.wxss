@@ -1,0 +1,53 @@
+/* pages/applyJiren/applyJiren.wxss */
+textarea {
+  color: #999999;
+  font-size: 30rpx;
+  text-indent: 32rpx;
+  padding: 36rpx 0;
+  height: 30rpx;
+}
+.choose {
+  width: 200rpx;
+  height: 200rpx;
+  margin-left: 32rpx;
+}
+.wrapImg {
+  flex-wrap: wrap;
+  height: 200rpx;
+}
+.confirm {
+  width: 440rpx;
+  height: 80rpx;
+  background: #333333;
+  border-radius: 2px; 
+  color: #ffffff;
+  font-size: 30rpx;
+  text-align: center;
+  margin: 0 auto;
+  line-height: 80rpx;
+  margin-top: 100rpx;
+}
+.add {
+  width: 200rpx;
+  height: 200rpx;
+  margin-left: 32rpx;
+  margin-top: 60rpx;
+}
+.border {
+  height: 20rpx;
+  background: #f7f7f7;
+}
+.des {
+  height: 120rpx;
+}
+.tuijian {
+  border: 1px solid #979797;
+  border-radius: 4px;
+  font-size: 30rpx;
+  color: #999;
+  text-indent: 32rpx;
+  width: 660rpx;
+  height: 84rpx;
+  line-height: 84rpx;
+  margin: 50rpx auto;
+}

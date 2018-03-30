@@ -1,0 +1,171 @@
+<!--template/index/index.wxml 企业首页-->
+<view>
+  <view class='flex wrap-title'>
+    <view class='wrap-id-title'>
+      <view class='title'>Okelya商务</view>
+      <view class='idnum'>ID号：123718296</view>
+    </view>
+    <view>
+      <text class='num'>33<text class='numtitle'>关注</text></text>
+      <text class='num'>4万<text class='numtitle'>粉丝</text></text>
+    </view>
+  </view>
+  <view class='flex'>
+    <view class='wrap-index-head flex1'>
+      <image src='/images/imgtest.png' class='index-head'></image>
+    </view>
+    <view class='attention'>+关注</view>
+  </view>
+  <view class='wrap-yiren'>
+    <view>合作艺人</view>
+    <scroll-view scroll-x='true'>
+      <image src='/images/imgtest.png' class='yiren'></image>
+      <image src='/images/imgtest.png' class='yiren'></image>
+      <image src='/images/imgtest.png' class='yiren'></image>
+      <image src='/images/imgtest.png' class='yiren'></image>
+    </scroll-view>
+  </view>
+  <!-- <view>
+  <view>
+  <view>总订单</view>
+  <view>
+  <view>100</view>
+  <view>¥50.000</view>
+  </view>
+  </view> -->
+
+  <!-- <view>
+  <view>
+    <view>总视频</view>
+    <view>10</view>
+  </view>
+</view> -->
+</view>
+<view class='border'></view>
+
+<view>
+
+  <view class='flex wrap-tab'>
+    <view data-current="0" bindtap="swichNav" class="right {{currentTab==0 ? 'active' : ''}}">视频</view>
+    <view data-current="1" bindtap="swichNav" class="right {{currentTab==1 ? 'active' : ''}}">爆品</view>
+    <view data-current="2" bindtap="swichNav" class="right {{currentTab==2 ? 'active' : ''}}">企业介绍</view>
+    <view data-current="3" bindtap="swichNav" class="{{currentTab==3 ? 'active' : ''}}">发布公告</view>
+  </view>
+
+  <view wx:if="{{currentTab === '0'}}">
+ <view>
+<view class='v-wrap-list'>
+  <view>
+  <view class='relative'>
+  <image src='/images/imgtest.png' class='v-img'></image>
+  <view class='v-wrap-like'>
+  <image src='/images/video-like.png' class='v-like'></image>
+  <text>344</text>
+  </view>
+  </view>
+  <view class='v-title'>阿拉伯舞蹈</view>
+  <image src='/images/imgtest.png' class='v-head'></image>
+  <text class='v-name'>那时花开</text>
+  </view>
+   <view>
+  <view class='relative'>
+  <image src='/images/imgtest.png' class='v-img'></image>
+  <view class='v-wrap-like'>
+  <image src='/images/video-like.png' class='v-like'></image>
+  <text>344</text>
+  </view>
+  </view>
+  <view class='v-title'>阿拉伯舞蹈</view>
+  <image src='/images/imgtest.png' class='v-head'></image>
+  <text class='v-name'>那时花开</text>
+  </view>
+   <view>
+  <view class='relative'>
+  <image src='/images/imgtest.png' class='v-img'></image>
+  <view class='v-wrap-like'>
+  <image src='/images/video-like.png' class='v-like'></image>
+  <text>344</text>
+  </view>
+  </view>
+  <view class='v-title'>阿拉伯舞蹈</view>
+  <image src='/images/imgtest.png' class='v-head'></image>
+  <text class='v-name'>那时花开</text>
+  </view>
+</view>
+</view>
+  </view>
+
+  <view wx:elif="{{currentTab === '1'}}" class='flex wrap-pro'>
+    <view class='wrap-pro-list'>
+      <view>
+        <image src='/images/imgtest.png' class='product-img'></image>
+      </view>
+      <view class='pro-title'>iphone7全网通</view>
+      <view class='wrap-pri'>
+        <text class='ori-pri'>5388</text>
+        <text class='now-pri'>1700元</text>
+        <text class='name'>苏宁易购</text>
+      </view>
+      <view class='wrap-num'>
+        <text>被关注</text>
+        <text>100</text>
+        <text class='num'>数量</text>
+        <text>2000件</text>
+      </view>
+    </view>
+      <view class='wrap-pro-list'>
+      <view>
+        <image src='/images/imgtest.png' class='product-img'></image>
+      </view>
+      <view class='pro-title'>iphone7全网通</view>
+      <view class='wrap-pri'>
+        <text class='ori-pri'>5388</text>
+        <text class='now-pri'>1700元</text>
+        <text class='name'>苏宁易购</text>
+      </view>
+      <view class='wrap-num'>
+        <text>被关注</text>
+        <text>100</text>
+        <text class='nums'>数量</text>
+        <text>2000件</text>
+      </view>
+    </view>
+      <view class='wrap-pro-list'>
+      <view>
+        <image src='/images/imgtest.png' class='product-img'></image>
+      </view>
+      <view class='pro-title'>iphone7全网通</view>
+      <view class='wrap-pri'>
+        <text class='ori-pri'>5388</text>
+        <text class='now-pri'>1700元</text>
+        <text class='name'>苏宁易购</text>
+      </view>
+      <view class='wrap-num'>
+        <text>被关注</text>
+        <text>100</text>
+        <text class='num'>数量</text>
+        <text>2000件</text>
+      </view>
+    </view>
+  </view>
+  
+
+  <view wx:elif="{{currentTab === '2'}}">
+    <view class='jiehsao'>
+      快看看丁俊分客户反馈都很疯狂的回复肯定会疯狂的回复款短发好看的回复肯定会分开的话
+    </view>
+  </view>
+
+
+  <view wx:else="{{currentTab === '3'}}">
+    <view class='wrap-gg-list'>
+    <view class='gg-list'>
+    <view class='gg-contet'>
+      时间好堵好堵是堵好堵虎岛和夫的回复的
+    </view>
+    <view class='date'>2018-04-30</view>
+    </view>
+    </view>
+  </view>
+
+</view>

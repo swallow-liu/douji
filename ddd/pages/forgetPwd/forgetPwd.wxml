@@ -1,18 +1,19 @@
 <view class='main'>
 <view class='login'>
-  <view class='login-wrap-input'>
-    <input type="text" placeholder='请输入您的手机号' />
-    <view class='register-verify-code'>获取验证码</view>
+  <view class='login-wrap-input flex'>
+    <input type="text" placeholder='请输入您的手机号' bindinput="bindKeyInput" class='flex1'/>
+    <view class='register-verify-code' catchtap='getVerify' wx:if="{{!getCode}}">获取验证码</view>
+    <view class='register-verify-code' wx:else>{{time}}S</view>
   </view>
   <view class='login-wrap-input'>
-    <input type="text" placeholder='请输入验证码' />
+    <input type="text" placeholder='请输入验证码' bindtap='bindCodeInput' />
   </view>
   <view class='login-wrap-input'>
-    <input type="text" placeholder='请输入密码' />
+    <input type="password" placeholder='请输入密码' bindtap='bindPwdInput'/>
   </view>
   <view class='login-wrap-input'>
-    <input type="text" placeholder='请再次输入密码' />
+    <input type="password" placeholder='请再次输入密码' bindtap='bindSecondInput'/>
   </view>
-  <view class='login-button'>设置新密码</view>
+  <view class='login-button' bindtap='confirm'>设置新密码</view>
   </view>
 </view>
